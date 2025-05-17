@@ -4,26 +4,30 @@
     @apply absolute bottom-0 h-12;
     @apply w-full;
 
-    @apply bg-gradient-to-r from-cyan-900 to-cyan-500;
+    @apply bg-gradient-to-r from-emerald-600 to-emerald-400;
     @apply text-3xl;
+    display: flex
 }
 
 .reveal .footer span {
     @apply px-4 pt-1;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 5px;
+
 }
 
-.reveal .footer span.conference {
+/* .reveal .footer span.conference {
     @apply float-left;
-}
+} */
 
-.reveal .footer span.conference img {
+/*.reveal .footer span.conference img {
     @apply inline float-left h-10;
     margin-top: -2px;
 }
 
 .reveal .footer span.speaker {
     @apply float-right;
-    @apply bg-[url('/img/twitter.png')] bg-no-repeat bg-[length:45px_auto];
 
     padding-left: 50px;
     background-position: -5px -2px;
@@ -34,4 +38,4 @@
     display: inline;
     height: 2.5rem;
     margin-top: -2px;
-}
+} */

@@ -1,10 +1,5 @@
-.hljs {
-    /* override Highlight.js */
-    @apply bg-transparent !important; 
-}
-
 .reveal pre {
-    @apply max-w-full rounded-lg border-4 border-solid border-cyan-900 text-lg;
+    @apply max-w-full rounded-lg text-lg;
     width: 100%;
 }
 
@@ -14,4 +9,8 @@
 
 pre code.hljs {
     @apply font-fira-code;
+}
+
+code {
+    @apply text-gray-300;
 }

@@ -1,15 +1,16 @@
 .reveal,
-.reveal div {
+.reveal .slide-content {
     @apply text-4xl subpixel-antialiased;
     @apply font-hubballi;
+    @apply text-gray-900;
 }
 
 .reveal em {
-    @apply text-amber-400 italic;
+    @apply text-amber-800 italic;
 }
 
 .reveal strong {
-    @apply text-amber-400 font-bold;
+    @apply text-amber-800 font-bold;
 }
 
 .reveal .small {
@@ -41,6 +42,10 @@ section[data-background-image] blockquote {
 
 section.bright-background {
     @apply text-gray-900;
+}
+
+section.dark-background {
+    @apply text-gray-200;
 }
 
 .reveal section h1 {
